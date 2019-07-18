@@ -1,3 +1,4 @@
+"""code for quadratic equation"""
 import math
 a=int(input("enter a"))
 b=int(input("enter b"))
@@ -10,8 +11,6 @@ if d==0:
 elif d>0:
     x1=(-b+(math.sqrt(d)))/(2*a)
     x2=(-b-(math.sqrt(d)))/(2*a)
-    print(x1)
-    print(x2)
     print("the ans is {}{}".format(x1,x2))
 else:
     rp=-b/(2*a)
